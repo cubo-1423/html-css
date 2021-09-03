@@ -1,0 +1,87 @@
+@media (max-width:960px){
+    /*le quitamos el margen y el border*/
+    .container-div{
+        border: none;
+        margin: 0px;    
+        display: block;
+    }
+
+    /*le asignamos un ancho del 100%*/
+    .container-img a{
+        width: 100%;
+    }
+
+    /*navegacion*/
+
+    /*quitamos de la vista el menu*/
+    .navegacion{
+        display: none;
+        background-color:aqua;
+    }
+    /*al seleccionar un elemento el fondo se tornara blanco*/
+    .navegacion li:hover{
+        background-color:#ffffff;
+    }
+    /*los elemento (a) se tornaran de color negro*/
+    .navegacion a:hover {
+        color:#000000;
+    }
+
+    .item a{
+        color:var(--color-azul);
+    }
+    /*le asignamos un color de fondo al elemento item*/
+    .navegacion .item:hover{
+        background-color: #ffffff;
+    }
+
+    /*seleccionamos el primer el elemento del la lista y le cambiamos el color de fondo y acomodamos el padding*/
+    .navegacion li:first-of-type{
+        background-color:aqua;
+        padding: 5px 15px 30px 15px;
+    }
+
+    .navegacion  li{
+        margin: 0px;
+        width: 100%;
+        display: block;
+    }
+
+    label{
+        display: block;   
+        margin-top: 1rem;
+    }    
+
+    /*MAIN*/
+
+    .contenido{
+        margin: 0px auto;
+        margin-bottom: 25px;   
+    }
+
+    /*FOOTER*/
+    
+    .footer-con{
+        height: 40%;
+    }
+
+    .container-logo{
+        margin-left: 1.5rem;
+    }    
+
+    .texto li{
+        margin-bottom:5px;
+    }
+
+    .elemento1{
+        margin-left:1.5rem;
+        margin-top: 1rem;
+        margin-bottom:2rem;
+    }
+    
+    .guides-ul{
+        margin-right: 20px;
+    }
+}
+
+
